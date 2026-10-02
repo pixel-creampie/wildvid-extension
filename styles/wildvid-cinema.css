@@ -1,0 +1,83 @@
+#secondary,
+#related,
+ytd-watch-next-secondary-results-renderer,
+ytd-compact-video-renderer,
+ytd-compact-radio-renderer,
+ytd-compact-playlist-renderer {
+  display: none !important;
+}
+#chip-bar,
+ytd-feed-filter-chip-bar-renderer {
+  display: none !important;
+}
+#comments,
+ytd-comments,
+ytd-comment-thread-renderer,
+ytd-comments-header-renderer {
+  display: none !important;
+}
+#primary,
+#primary-inner,
+ytd-watch-flexy #columns #primary {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+ytd-watch-flexy #columns {
+  max-width: 100% !important;
+}
+ytd-watch-flexy[flexy_][is-two-columns_] #player-container-outer,
+ytd-watch-flexy[flexy_][is-two-columns_] #player-container-inner,
+ytd-watch-flexy[flexy_][is-two-columns_] #player-container {
+  max-width: 100% !important;
+}
+.ytp-endscreen-content,
+.ytp-ce-element {
+  display: none !important;
+}
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-container,
+.ytp-ad-overlay-slot,
+.ytp-ad-text-overlay,
+.ytp-ad-image-overlay,
+.ytp-ad-skip-button-container,
+.ytp-ad-player-overlay,
+.ytp-ad-player-overlay-instream-info,
+.ytp-ad-action-interstitial,
+.ytp-ad-action-interstitial-slot,
+.ytp-ad-overlay-close-button,
+.ytp-ad-progress-list,
+.ytp-ad-message-container,
+.ad-container,
+.ad-div,
+.masthead-ad-control,
+.ad-showing .ytp-ad-module {
+  display: none !important;
+}
+ytd-display-ad-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-promoted-sparkles-text-search-renderer,
+ytd-search-pyv-renderer,
+ytd-ad-slot-renderer,
+ytd-in-feed-ad-layout-renderer,
+ytd-banner-promo-renderer,
+ytd-statement-banner-renderer,
+ytd-brand-video-shelf-renderer,
+ytd-brand-video-singleton-renderer,
+ytd-action-companion-ad-renderer,
+ytd-player-legacy-desktop-watch-ads-renderer,
+#masthead-ad,
+#player-ads,
+#panels > ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"] {
+  display: none !important;
+}
+.ytd-badge-supported-renderer[aria-label="Ad"],
+.ytp-ad-badge,
+.ytp-ad-visit-advertiser-button{
+  display: none !important;
+}
+ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+ytd-rich-section-renderer:has(ytd-ad-slot-renderer){
+  display: none !important;
+}
